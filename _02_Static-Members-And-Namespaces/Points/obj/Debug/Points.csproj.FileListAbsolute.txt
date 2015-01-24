@@ -1,0 +1,1 @@
+D:\Programming\Homeworks\OOP\_02_Static-Members-And-Namespaces\Points\bin\Debug\Points.exe.config

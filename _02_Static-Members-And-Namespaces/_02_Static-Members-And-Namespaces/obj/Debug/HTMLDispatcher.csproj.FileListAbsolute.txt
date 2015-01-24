@@ -1,0 +1,1 @@
+D:\Programming\Homeworks\OOP\_02_Static-Members-And-Namespaces\_02_Static-Members-And-Namespaces\bin\Debug\_02_Static-Members-And-Namespaces.exe.config

@@ -12,7 +12,7 @@ namespace _02_Static_Members_And_Namespaces._01_Point3D
         private double pointY;
         private double pointZ;
 
-        private static Point3D startPoint = new Point3D(0, 0, 0);
+        private static readonly Point3D startPoint = new Point3D(0, 0, 0);
 
         public Point3D(double x, double y, double z)
         {
