@@ -20,24 +20,27 @@ namespace _02_Static_Members_And_Namespaces._03_Paths
                 string pattern = "(\\d+[\\.{1}\\d+]*).[^\\.\\d]*(\\d+[\\.{1}\\d+]*).[^\\.\\d]*(\\d+[\\.{1}\\d+]*)";
                 line = sr.ReadLine();
 
-                while (line != null)
+                using (sr)
                 {
-                    double x;
-                    double y;
-                    double z;
-
-                    MatchCollection matches = Regex.Matches(line, pattern);
-                    foreach(Match match in matches)
+                    while (line != null)
                     {
-                        x = Double.Parse(match.Groups[1].Value);
-                        y = Double.Parse(match.Groups[2].Value);
-                        z = Double.Parse(match.Groups[3].Value);
+                        double x;
+                        double y;
+                        double z;
 
-                        Point3D point = new Point3D(x, y, z);
-                        path.Add(point);
-                    } 
-                    
-                    line = sr.ReadLine();
+                        MatchCollection matches = Regex.Matches(line, pattern);
+                        foreach (Match match in matches)
+                        {
+                            x = Double.Parse(match.Groups[1].Value);
+                            y = Double.Parse(match.Groups[2].Value);
+                            z = Double.Parse(match.Groups[3].Value);
+
+                            Point3D point = new Point3D(x, y, z);
+                            path.Add(point);
+                        }
+
+                        line = sr.ReadLine();
+                    }
                 }
             }
 
@@ -64,9 +67,12 @@ namespace _02_Static_Members_And_Namespaces._03_Paths
 
             try
             {
-                foreach(Point3D point in path)
+                using (sw)
                 {
-                    sw.WriteLine(point.ToString());
+                    foreach (Point3D point in path)
+                    {
+                        sw.WriteLine(point.ToString());
+                    }
                 }
             }
 
