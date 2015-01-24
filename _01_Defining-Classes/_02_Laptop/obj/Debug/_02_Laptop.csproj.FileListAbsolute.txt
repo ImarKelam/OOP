@@ -1,0 +1,6 @@
+D:\Programming\Homeworks\OOP\_01_Defining-Classes\_02_Laptop\bin\Debug\_02_Laptop.exe.config
+D:\Programming\Homeworks\OOP\_01_Defining-Classes\_02_Laptop\bin\Debug\_02_Laptop.exe
+D:\Programming\Homeworks\OOP\_01_Defining-Classes\_02_Laptop\bin\Debug\_02_Laptop.pdb
+D:\Programming\Homeworks\OOP\_01_Defining-Classes\_02_Laptop\obj\Debug\_02_Laptop.csprojResolveAssemblyReference.cache
+D:\Programming\Homeworks\OOP\_01_Defining-Classes\_02_Laptop\obj\Debug\_02_Laptop.exe
+D:\Programming\Homeworks\OOP\_01_Defining-Classes\_02_Laptop\obj\Debug\_02_Laptop.pdb
