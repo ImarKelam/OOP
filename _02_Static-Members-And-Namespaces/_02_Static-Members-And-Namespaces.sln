@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLDispatcher", "_02_Static-Members-And-Namespaces\HTMLDispatcher.csproj", "{1FB1BF11-F71C-4B96-8839-9791131047CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Points", "Points\Points.csproj", "{DD93DF54-15AF-4D56-AD81-2E3E170775B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{969B9D85-5479-43B3-A768-B1D9456F9A36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FB1BF11-F71C-4B96-8839-9791131047CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB1BF11-F71C-4B96-8839-9791131047CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB1BF11-F71C-4B96-8839-9791131047CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB1BF11-F71C-4B96-8839-9791131047CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD93DF54-15AF-4D56-AD81-2E3E170775B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD93DF54-15AF-4D56-AD81-2E3E170775B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD93DF54-15AF-4D56-AD81-2E3E170775B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD93DF54-15AF-4D56-AD81-2E3E170775B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969B9D85-5479-43B3-A768-B1D9456F9A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969B9D85-5479-43B3-A768-B1D9456F9A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969B9D85-5479-43B3-A768-B1D9456F9A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969B9D85-5479-43B3-A768-B1D9456F9A36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
