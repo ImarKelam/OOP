@@ -13,7 +13,7 @@ namespace _02_Static_Members_And_Namespaces._03_Paths
         {
             List<Point3D> path = new List<Point3D>();
             string line;
-            StreamReader sr = new StreamReader("C:\\temp\\Input.txt");
+            StreamReader sr = new StreamReader("../../Input.txt");
  
             try
             {
@@ -60,7 +60,7 @@ namespace _02_Static_Members_And_Namespaces._03_Paths
 
         public static void WriteData(List<Point3D> path)
         {
-            StreamWriter sw = new StreamWriter("C:\\temp\\OuputPath.txt");
+            StreamWriter sw = new StreamWriter("../../OuputPath.txt");
 
             try
             {
