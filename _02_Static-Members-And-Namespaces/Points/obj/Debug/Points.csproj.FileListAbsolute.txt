@@ -1,0 +1,6 @@
+D:\Programming\Homeworks\OOP\_02_Static-Members-And-Namespaces\Points\bin\Debug\Points.exe.config
+D:\Programming\Homeworks\OOP\_02_Static-Members-And-Namespaces\Points\obj\Debug\Points.exe
+D:\Programming\Homeworks\OOP\_02_Static-Members-And-Namespaces\Points\obj\Debug\Points.pdb
+D:\Programming\Homeworks\OOP\_02_Static-Members-And-Namespaces\Points\bin\Debug\Points.exe
+D:\Programming\Homeworks\OOP\_02_Static-Members-And-Namespaces\Points\bin\Debug\Points.pdb
+D:\Programming\Homeworks\OOP\_02_Static-Members-And-Namespaces\Points\obj\Debug\Points.csprojResolveAssemblyReference.cache
